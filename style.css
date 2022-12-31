@@ -1,8 +1,12 @@
 body{
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .name-highlight{
     color: orange;
@@ -15,4 +19,28 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+    
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(320deg, orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(320deg, rgb(77, 77, 248), rgb(179, 44, 233));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
